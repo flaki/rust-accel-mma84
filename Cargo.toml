@@ -5,7 +5,7 @@ version = "0.0.1"
 authors = ["johnnyman727 <johnnyman727@gmail.com>","Kenneth Nierenhausen <kennethnierenhausen@gmail.com>"]
 
 [dependencies]
-unix_socket = "0.2.3"
+unix_socket = { git = "https://github.com/sfackler/rust-unix-socket", rev = "9ff07caebb4f05cb43b724efc87754f923b63532" }
 
 [dependencies.rust_tessel]
 git = "https://github.com/flaki/tessel-rust.git"
